@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "long": "nodemon longpulling.js",
+    "event": "nodemon eventsource.js",
+    "web": "nodemon websocket.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "ws": "^8.16.0"
+  }
+}
